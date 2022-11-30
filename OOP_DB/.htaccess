@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^show/([0-9a-zA-Z]+) index.php?page=show&id=$1 [NC,L]
+
+ErrorDocument 404 /Pemantapan/OOP_DB/404.html
+ErrorDocument 500 /Pemantapan/OOP_DB/500.html

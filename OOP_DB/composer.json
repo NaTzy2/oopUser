@@ -1,0 +1,16 @@
+{
+    "name": "pemantapan/oop_db",
+    "description": "PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Naufal Fachrezy",
+            "email": "naufalm061@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OOP\\App\\" : "App"
+        }
+    }
+}

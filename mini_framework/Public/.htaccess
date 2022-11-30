@@ -1,0 +1,6 @@
+Options ALL -Indexes
+
+RewriteEngine On
+RewriteCond %(REQUEST_FILENAME) l-f
+RewriteCond %(REQUEST_FILENAME) l-d
+RewriteRule ^([\s\S]*)$ index.php/$1 [L,NC,QSA]
